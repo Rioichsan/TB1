@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void loginreg(View view) {
-        Intent intent = new Intent(MainActivity.this, loginreg.class);
+        Intent intent = new Intent(MainActivity.this, page2.class);
         startActivity(intent);
     }
 
